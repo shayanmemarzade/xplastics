@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>2EX Technology</title>
+        <style>
+            body {
+                background-color: white;
+            }
+            .logo {
+                z-index: 10;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 80%;
+            }
+            .locations {
+                z-index: 20;
+                position: absolute;
+                top: 5%;
+                left: 5%;
+                width: 10%;
+            }
+            @media screen and (orientation: portrait) {
+                .locations {
+                    width: 25%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <img class="locations" src="./locations.png">
+        <img class="logo" src="./logo.png">
+    </body>
+</html>
